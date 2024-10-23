@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    margin-top: 20px;
+    width: 90vw;
+    border: 1px solid black;
+  }
+  .name {
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  table {
+    padding: 10px;
+    width: 100%;
+  }
+  td {
+    text-align: center;
+  }
+  .hr95 {
+    width: 95%;
+    margin: auto;
+    border: solid 1px;
+  }
+  h4 {
+    text-align: center;
+  }
+  ul li {
+    list-style-type: none;
+  }
+  section {
+    padding: 10px;
+  }
